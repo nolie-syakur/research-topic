@@ -1,0 +1,251 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{url}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding default
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plain
+\use_bibtopic true
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 2
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Research Topic
+\end_layout
+
+\begin_layout Author
+Nurul Akbar
+\end_layout
+
+\begin_layout Author
+s1192523
+\end_layout
+
+\begin_layout Author
+University of Twente
+\end_layout
+
+\begin_layout Part
+Motivation and background
+\end_layout
+
+\begin_layout Standard
+With the enormous growing trends of information technology in modern generation,
+ the evolution of digital era has become more mature in the sense of effectivene
+ss and easiness for societies.
+ Trusted entities such as financial institutions may offer their products
+ and services to the public through the Internet.
+ Consequently, societies are hoping to utilize technology advancement such
+ as emails, websites, online payment system, social networks to achieve
+ their tasks efficiently, affordable and more relevant.
+ However, the advancement in information and communication technology has
+ been a double-edged sword.
+ It becomes easier to get personal information about someone in the cyber
+ world.
+ Cyber criminals see this opportunity as a way to manipulate consumers and
+ exploit their confidential information such as usernames, passwords, bank
+ account information, credit card or social security numbers.
+ 
+\end_layout
+
+\begin_layout Standard
+One of the well known cyber crimes is called phishing.
+ Phishing attacks aim to gain a financial benefit by masquerading legitimate
+ institutions 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jakobsson:2006"
+
+\end_inset
+
+.
+ Moreover, phishing techniques may associated with fake emails and fake
+ websites, however, the essence of this malicious behavior is the art of
+ social engineering and deception 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jakobsson:2006"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "blythe2011f"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "dhamija2006phishing"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "james:2005"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jagatic2007social"
+
+\end_inset
+
+ i.e.
+ how to trick the potential victims into disclosing their sensitive information.
+ To illustrate one specific example; a phisher impersonates a well-known
+ bank institutions and sends fake email announcing there is system upgrade
+ to its customers, so the phisher would ask the customers to verify their
+ usernames, passwords and credit card numbers in order to complete the system
+ upgrade.
+ In worst case, a clueless bank customer would have no idea and fail to
+ ascertain that legitimate bank institutions would never ask for such things.
+ Consequently, an unsuspecting victim might took the bait into divulging
+ their sensitive information to the perpetrators.
+ More concrete mechanism to carry out phishing attacks is that when the
+ phishers send a large number of phishing emails which include malicious
+ link or URL which redirect recepient to a fake website.
+ A phishing email might be resembling a legitimate email so that unsuspecting
+ victim might think that it is a genuine.
+ By looking like a genuine email, it would help to circumvent the filtering
+ system 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ma2009detecting"
+
+\end_inset
+
+.
+ One of phishing email methods is providing a malicious URL within its content,
+ however, filtering systems of phishing email may have access to blacklist
+ database of URLs that are currently being pushed, such as crowd sourced
+ Phishtank.
+ So the phishers might diverge the URL to bypass the matches.
+\end_layout
+
+\begin_layout Standard
+To make phishing email efficient, its context might require potential victim
+ to urgently act upon it, for example an email informs about suspended account
+ in a banking website.
+ Phishing attacks are carried out using fake emails, fake websites and often
+ phishers may exploit the end user’s web browser to bypass warnings and
+ URL information.
+ Several countermeasures have been studied to detect phishing emails, such
+ as the technique of looking for bit string that are previously determined
+ as spams and phishing emails 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "wardman:2009"
+
+\end_inset
+
+.
+ The common characteristics of fake email sent by the phishers would be
+ misleading hyperlinks and misleading header information 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "zhang:2006,zhang:2007"
+
+\end_inset
+
+.
+ Furthermore, one of the non technical approach to defense against cyber
+ fraud such as security awareness education to the public to ignore links
+ within an email, even though the source of the email appear to be legitimate
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "sheng:2010"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Part
+Bibliography
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "Bibliography"
+options "IEEEtran"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
