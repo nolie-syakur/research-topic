@@ -73,8 +73,7 @@
 \begin_body
 
 \begin_layout Title
-General understanding towards persuasive elements in phishing email - Research
- Topic
+Research Topic
 \end_layout
 
 \begin_layout Standard
@@ -6073,7 +6072,7 @@ Relationship between generic properties
 \end_layout
 
 \begin_layout Standard
-Secondly, we wanted to know how relevant are the persuasive principles to
+Secondy, we wanted to know how relevant are the persuasive principles to
  the associated phishing eamil properties.
  
 \end_layout
@@ -6638,7 +6637,7 @@ key "cialdini:2001"
 
 .
  Hence, we correlate that a person who wears police uniform and a fake badge
- in the real world context as authority principle and the presence of image
+ in the real world context as authority principle and the precence of image
  in the phishing mail context.
  Another example, an email that masquerades Apple company, may clone Apple
  company logo or trademark to its content to increase the chance of potential
@@ -6964,29 +6963,22 @@ In this report, we have tried to summarize all relevant literature.
  We have outline the basic understanding related to general phishing in
  respect to its history.
  We have also reviewed its universal definition from various sources.
- One study aggregated and systematically achieved the consensual definition
+ One study aggregated and systematically avhieved the consensual definition
  of phishing in which we follow.
  We have also briefly explain the damage of phishing in term of direct cost.
  We have learned that human factor is one of the most critical aspects in
  phishing.
- Many studies suggest several phases when phishing attack occurred and we
+ Many studies suggest several phases when phishing attack occured and we
  tried to synthesized these phases and determined our own phases based on
  the attacker point of view.
  We have outlined the general type of phishing and the existence of phishing
  badhoods.
  Many studies suggest both technical and social countermeasures such as
- restriction list, machine learning approach to detect spoofed website and
- anti phishing training.
+ restriction list, machine learning approach to detect spoof.
  However, we have found an absence of empirical research conducted to investigat
 e the role of persuasive elements as a human factor in respect to phishing
- email which can be an aspect to be considered to prevent phishing attack.
-\end_layout
-
-\begin_layout Standard
-We have formulated two research questions and some hypotheses based on our
- impressions from literature.
- We have also outlined a methodology to perform the data analysis that hopefully
- can answer the research questions from its findings.
+ email.
+ 
 \end_layout
 
 \begin_layout Part*
