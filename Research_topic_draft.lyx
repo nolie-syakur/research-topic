@@ -242,7 +242,7 @@ key "sheng:2010"
 
 \begin_layout Standard
 The success of phishing attack through distributed emails is determined
- by the response of the unsupecting reciepents.
+ by the response of the unsuspecting recipients.
  User decisions to click a link or open an attachment in an email might
  be influenced by how strong a phisher can persuade a victim.
  However, current countermeasures in a phishing email so far do not consider
@@ -1616,7 +1616,7 @@ Planning
  This email is desired by the phisher to look as legit as possible to potential
  victim.
  For this purpose, target institutions logo, trademark, or symbol are used
- to make the content looks official and legitimatge to the victim.
+ to make the content looks official and legitimate to the victim.
  The author called this process as 
 \shape italic
 Email Design
@@ -1945,14 +1945,14 @@ key "tally:2004"
  The first phase, it represents the planning, as we understand the attacker
  collects the email address of unsuspecting victims.
  The second phase, considering that it is related to creating a fake email
- that apprears legitimate, this phase can be viewed as design phase.
+ that appears legitimate, this phase can be viewed as design phase.
  On the third phase, we consider this as delivery and attack phases as it
  involves the attacker sends the fake email to the unintended victims and
  obfuscated the true source.
  The fourth phase represents attack phase as it involves with the recipient
  complies with the attacker's request(s).
  Lastly the fifth phase, it represents the fraud phase, as it related to
- haversting and exploiting victim's resources by the attacker.
+ harvesting and exploiting victim's resources by the attacker.
  Additionally, the phases described by Tally, et al.
  
 \begin_inset CommandInset citation
@@ -2431,7 +2431,7 @@ Bad neighborhoods on phishing
 
 \lang american
 In the physical world, there are parts of certain area that have higher
- crime rates than others (eg.
+ crime rates than others (e.g..
  Bronx in the US) which called hotspots.
  Evidently, it is statistically more likely that a crime will occur compared
  to other locations 
