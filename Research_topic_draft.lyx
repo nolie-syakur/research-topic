@@ -277,10 +277,9 @@ What is phishing?
 \begin_layout Standard
 
 \lang american
-As we we already aware, the Internet has brought convenience to many people
- for exchanging information, it also provides opportunities to carry malicious
- behavior such as online fraud on massive scale with a little cost to the
- attackers.
+While the Internet has brought convenience to many people for exchanging
+ information, it also provides opportunities to carry malicious behavior
+ such as online fraud on massive scale with a little cost to the attackers.
  The attackers can manipulate the Internet users instead of computer system
  (hardware or software) that significantly increase the barriers of technologica
 l crime impact.
@@ -779,7 +778,7 @@ key "jakobsson:2006"
 
 .
  On this section, a brief explanation of direct and indirect cost on phishing
- attack will be illustrated based on literature reviews.
+ attack will be illustrated based on literature review.
 \end_layout
 
 \begin_layout Standard
@@ -857,7 +856,7 @@ key "moura2009scalable"
  year 2004 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "litan2:2004"
+key "litan2004phishing"
 
 \end_inset
 
@@ -885,99 +884,35 @@ http://www.theregister.co.uk/2004/09/29/phishing_survey/
 \end_inset
 
 .
- Recently, RSA FraudAction gives monthly reports of how much the global
- phishing cost and we compiled them together to make a line graph in Figure
  
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:global-phishing-cost"
-
-\end_inset
-
-
-\begin_inset CommandInset citation
-LatexCommand citep
-key "RSA:2014"
-
-\end_inset
-
-.
- However, they do not specify whether this damage is direct cost or indirect
- cost.
- In their study, we can see that there are fluctuation of losses in term
- of money.
- Furthermore, this total cost is indeed in accordance with the total cost
- ranging from $61 million to $3billion per year 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "herley:2009,mccall2007gartner,hong:2012,moura2009scalable"
-
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Standard
 
 \lang american
-With this in mind, we might ask how phishing attack is carried out? is there
- any stages involved? The next chapter we will review its modus operandi
- in term of phishing stages or phases.
+However, the lack of information such as the detailed of documentation survey
+ on how to find these numbers conducted by Gartner group or Ponemon makes
+ these estimations are biased than is generally realized.
+ It is interesting to investigate why their estimations are repeated without
+ really analyzed when they appeared biased at best.
+ One thing come up in our mind that they might have a hidden agenda to make
+ societies think that the cost of phishing is high.
+ Consequently, people would be obligated to implement anti phishing system
+ or engage in phishing awareness in their company which require money.
+ With this in mind, we would like to emphasize that our findings on the
+ costs of phishing attacks are only estimations without scrutiny from academic
+ researchers and it might be an exaggeration.
+ Although even if the cost of phishing attack is zero, we believe that phishing
+ is still a major problem in terms of trust among users and the misuse of
+ email as a means of communication.
 \end_layout
 
 \begin_layout Standard
 
 \lang american
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-
-\lang american
-\begin_inset Graphics
-	filename ../NurulAkbarThesis-LyX/classicthesis-LyX-v4.1/gfx/phishing_cost1.jpg
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\lang american
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\lang american
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:global-phishing-cost"
-
-\end_inset
-
-Global phishing cost from January 2014 until June 2014 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "RSA:2014"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+Apart from the cost of phishing attacks, we might ask how phishing attack
+ is carried out? is there any stages involved? The next chapter we will
+ review its modus operandi in term of phishing stages or phases.
 \end_layout
 
 \begin_layout Section*
@@ -1629,16 +1564,8 @@ reference "fig:ing"
 
 \end_inset
 
- illustrates the example of fake ING bank logo in a phishing email to create
- 
-\begin_inset Quotes eld
-\end_inset
-
-legitimate
-\begin_inset Quotes erd
-\end_inset
-
- feel
+ illustrates the example design of a fake email that impersonates ING bank
+ that can trick unsuspecting victims
 \begin_inset Foot
 status collapsed
 
@@ -1651,6 +1578,9 @@ http://www.martijn-onderwater.nl/wp-content/uploads/2010/03/ing-phishing.jpg
 \end_inset
 
 .
+ From the figure, we can spot a fake email by investigating the sender email
+ address or the URL provided in the body, whether it redirects to the official
+ ING website or not.
  On the third process, the phisher 
 \shape italic
 fabricates
@@ -1705,7 +1635,7 @@ key "cialdini:2001"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1734,7 +1664,7 @@ name "fig:ing"
 
 \end_inset
 
-Example of fake ING logo in phishing email
+Example of a phishing email impersonating ING bank
 \end_layout
 
 \end_inset
@@ -2330,16 +2260,17 @@ key "jakobsson:2006"
 \begin_layout Subsection*
 
 \lang american
-Deceptive phishing
+Phishing based on visual similarities
 \end_layout
 
 \begin_layout Standard
 
 \lang american
-There are many variations based on deceptive phishing schemes.
- Typical scenario of deceptive phishing schemes is to send a large amount
- of illicit emails containing call to action asking recipients to click
- embedded links 
+Since all phishing is based on deception and social engineering, there is
+ a phishing scenario based on visual similarities.
+ Typical scenario of phishing based on visual similarities is to send a
+ large amount of illicit emails containing call to action asking recipients
+ to click embedded links 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "jakobsson:2006"
@@ -2421,197 +2352,10 @@ key "jakobsson:2006"
  web Trojans and hosts file poisoning.
 \end_layout
 
-\begin_layout Section*
-
-\lang american
-Bad neighborhoods on phishing
-\end_layout
-
 \begin_layout Standard
 
 \lang american
-In the physical world, there are parts of certain area that have higher
- crime rates than others (e.g..
- Bronx in the US) which called hotspots.
- Evidently, it is statistically more likely that a crime will occur compared
- to other locations 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "moura:2013"
-
-\end_inset
-
-.
- To better illustrate this analogy, the police department in Belgium 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "belgiumpolice:2014"
-
-\end_inset
-
- has put up statistical information regarding crime rates in the country.
- Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:car-incidents"
-
-\end_inset
-
- shows an example in 2013; there were up to 5525 car theft incidents recorded
- and we can see there are certain areas that have higher probability that
- a car got stolen.
- For example, Antwerp had 415 incidents whereas Berlare had only 1 car theft
- incident 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "belgiumpolice2:2014"
-
-\end_inset
-
-.
- The data is not necessarily based on cities, it can be based on the residential
- area within a city.
- This holds true that much higher crime rates in a concentrated location
- compared to any other locations.
- It is called bad neighborhood.
- 
-\end_layout
-
-\begin_layout Standard
-
-\lang american
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-
-\lang american
-\begin_inset Graphics
-	filename ../NurulAkbarThesis-LyX/classicthesis-LyX-v4.1/gfx/bad neighborhoods.png
-	scale 80
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\lang american
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:car-incidents"
-
-\end_inset
-
-Belgium police record on car theft incidents in 2013
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang american
-To reduce the crime rates in a bad neighborhood, it makes sense that the
- authority should put more enforcement in this location.
- Moreover, the citizen should avoid this location as much as they can if
- they want to feel much safer.
- Evidently, Moura, et al.
- suggest that the existence of bad neighborhood phenomenon also occurs in
- the Internet world called 
-\begin_inset Quotes eld
-\end_inset
-
-Internet bad neighborhoods
-\begin_inset Quotes erd
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "moura:2013"
-
-\end_inset
-
-.
- There are certain networks of Internet infrastructure that contain more
- malicious activities that other networks.
- For our preliminary analysis, we will adopt formal definition of Internet
- bad neighborhoods or Internet Badhoods by 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "moura:2013"
-
-\end_inset
-
- which states: 
-\end_layout
-
-\begin_layout Quote
-
-\shape italic
-\lang american
-\begin_inset Quotes eld
-\end_inset
-
-Internet bad neighborhood is a set of IP addresses clustered according to
- an aggregation criterion in which a number of IP addresses perform a certain
- malicious activity over a specified period of time
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang american
-Several studies have suggested that the source of the Internet Badhoods
- tend to be concentrated in certain portions of IP address space 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "ramachandran:2006,collins:2007,chen:2007"
-
-\end_inset
-
-.
- Moura, et al.
- suggest that Internet Badhoods do not always only based on network prefixes
- level (e.g.
- /24, /32, etc..) but it can be aggregated into several levels (ISPs, Countries)
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "moura:2013"
-
-\end_inset
-
-.
- Moreover, Internet Badhoods may vary depending on which application exploited.
- While spam is most likely distributed all around the world, however, phishing
- Badhoods are most likely concentrated in developed countries (e.g.
- US) 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "moura:2013"
-
-\end_inset
-
-.
- This suggests that phishing sites are required to have more reliable hosts
- in term of availability, while spams are not.
- In the next section, we will study on the general phishing countermeasures
+In the next section, we will study on the general phishing countermeasures
  in term of phishing detection and prevention.
 \end_layout
 
@@ -2809,10 +2553,9 @@ reference "tab:phishtank"
 
 \lang american
 \begin_inset Tabular
-<lyxtabular version="3" rows="13" columns="4">
+<lyxtabular version="3" rows="13" columns="3">
 <features rotate="0" booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="3cm">
-<column alignment="left" valignment="top" width="2cm">
 <column alignment="left" valignment="top" width="2cm">
 <column alignment="left" valignment="top" width="5cm">
 <row>
@@ -2838,19 +2581,6 @@ Paper title
 \size footnotesize
 \lang american
 First author
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size footnotesize
-\lang american
-Country
 \end_layout
 
 \end_inset
@@ -2897,18 +2627,6 @@ key "moore:2008"
 \size scriptsize
 \lang american
 Tyler Moore
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\lang american
-United Kingdom
 \end_layout
 
 \end_inset
@@ -2961,18 +2679,6 @@ Pern Hui Chia
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\lang american
-Norway
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -3015,18 +2721,6 @@ key "liu:2010"
 \size scriptsize
 \lang american
 Gang Liu
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\lang american
-China
 \end_layout
 
 \end_inset
@@ -3075,18 +2769,6 @@ key "white:2012"
 \lang american
 Joshua S.
  White
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\lang american
-New york, US.
 \end_layout
 
 \end_inset
@@ -3140,18 +2822,6 @@ P.A.
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\lang american
-Newcastle, United Kingdom
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -3201,18 +2871,6 @@ Huiping Yao
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\lang american
-New Mexico, US.
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -3255,18 +2913,6 @@ key "huang:2012"
 \size scriptsize
 \lang american
 Huajun Huang
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\lang american
-China
 \end_layout
 
 \end_inset
@@ -3318,18 +2964,6 @@ Gaurav Gupta
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\lang american
-Australia
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -3373,18 +3007,6 @@ key "egan:2011"
 \size scriptsize
 \lang american
 Shaun Egan
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\lang american
-Grahamstown, South Africa
 \end_layout
 
 \end_inset
@@ -3435,18 +3057,6 @@ Sidharth Chhabra
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\lang american
-Delhi, India
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -3493,18 +3103,6 @@ Liu Wenyin
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\lang american
-Hong Kong
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
@@ -3542,15 +3140,6 @@ Summary phishtank studies
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -4018,7 +3607,7 @@ Furthermore, there are also several learning algorithms to classify the
 \begin_layout Standard
 
 \lang american
-There are vast amount of features to utilize machine learning to detect
+There are vast amount of features to be used in machine learning to detect
  phishing attack.
  Literatures are selected by keyword search such as 
 \begin_inset Quotes eld
@@ -4060,14 +3649,8 @@ key "ma:2009"
  For example the URLs https://www.paypal.com and http://www.paypal.com.example.com/
  or http://login.example.com/ www.paypal.com/, we can see that the domain paypal.com
  positioned differently, with the first one being the benign URL.
- Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:ex-lex"
-
-\end_inset
-
-shows an example analysis of lexical features in a phishing URL 
+ Le, et al suggests we can extract the features related to the full URL,
+ domain name, directory, file name and argument 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "le:2011"
@@ -4075,56 +3658,12 @@ key "le:2011"
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-
-\lang american
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-
-\lang american
-\begin_inset Graphics
-	filename ../NurulAkbarThesis-LyX/classicthesis-LyX-v4.1/gfx/lexical.png
-	scale 80
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\lang american
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:ex-lex"
-
-\end_inset
-
-Example lexical features 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "le:2011"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+ For example we want to extract features related to the full URL; we can
+ define the length of the URL, the number of dots in the URL, and whether
+ the blacklisted word presents in the URL.
+ The blacklisted words consist of sensitive words such as confirm, account,
+ login or webscr.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -4526,7 +4065,7 @@ reference "tab:host-based"
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -5881,7 +5420,7 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-RQ1: What are the characteristics of the reported phishing emails?
+RQ1: What are the characteristics of phishing emails?
 \end_layout
 
 \begin_layout Standard
@@ -5897,7 +5436,8 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-The characteristics of the reported phishing emails includes:
+The characteristics of phishing emails in our dataset are determined by
+ the following parameters:
 \end_layout
 
 \begin_layout Itemize
@@ -6404,7 +5944,8 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-H8: Phishing emails that include URL will likely to be obfuscated
+H8: Phishing emails that include URL will likely to be different than the
+ real destination
 \end_layout
 
 \begin_layout Standard
@@ -6748,22 +6289,7 @@ Research methodology
 \end_layout
 
 \begin_layout Standard
-The data for this research will be collected from fraudehelpdesk.nl as the
- 
-\begin_inset Quotes eld
-\end_inset
-
-Nationale helpdesk voor vragen en meldingen over fraude
-\begin_inset Quotes erd
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "fraudehelpdesk"
-
-\end_inset
-
+The data for this research will be collected from an organization based
  in the Netherlands.
  We are looking for reported phishing emails in 2013.
  We will be enumerating our methodology into several steps:
@@ -6818,19 +6344,23 @@ Conclusion
 
 \begin_layout Standard
 In this report, we have tried to summarize all relevant literature.
- We have outline the basic understanding related to general phishing in
+ We have outlined the basic understanding related to general phishing in
  respect to its history.
  We have also reviewed its universal definition from various sources.
  One study aggregated and systematically achieved the consensual definition
  of phishing in which we follow.
  We have also briefly explain the damage of phishing in term of direct cost.
+ We have learned that some organizations which measures the direct cost
+ of phishing attacks are being biased and thus we doubted the state of it.
+ However, we believe that phishing is still an issue in terms of trust among
+ users and the misuse of email as a means of communications.
  We have learned that human factor is one of the most critical aspects in
  phishing.
  Many studies suggest several phases when phishing attack occurred and we
  tried to synthesized these phases and determined our own phases based on
  the attacker point of view.
- We have outlined the general type of phishing and the existence of phishing
- badhoods.
+ We have outlined the general type of phishing includes phishing based visual
+ similarities and malware based phishing.
  Many studies suggest both technical and social countermeasures such as
  restriction list, machine learning approach to detect spoofed website and
  anti phishing training.
@@ -6844,6 +6374,14 @@ We have formulated two research questions and some hypotheses based on our
  impressions from literature.
  We have also outlined a methodology to perform the data analysis that hopefully
  can answer the research questions from its findings.
+ THIS IS TEST SEPARATING BIBLIOGRAPHY 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "moore2009economics"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part*
@@ -6855,6 +6393,22 @@ Bibliography
 LatexCommand bibtex
 btprint "btPrintCited"
 bibfiles "Bibliography"
+options "IEEEtran"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Aditional
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "additional"
 options "IEEEtran"
 
 \end_inset
