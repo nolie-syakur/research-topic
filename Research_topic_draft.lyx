@@ -263,9 +263,7 @@ We begin our research topic by understanding what is phishing itself; how
  Thirdly, we will conduct an overview of its modus operandi.
  In the fourth section, we will introduce a brief explanation on types of
  phishing.
- In the fifth section, an understanding of bad neighborhoods on phishing
- will be discussed.
- In the sixth section we will address the general phishing countermeasures.
+ In the fifth section, we will address the general phishing countermeasures.
  Lastly, in the last section of this chapter, human factor in phishing attacks
  will be discussed.
 \end_layout
@@ -2222,8 +2220,8 @@ key "teri:2014"
  well, but sometimes the news is kept hidden due to creditability reason.
  With this in mind, we believe fake websites might be hosted in the network
  which has more phishing domain than other networks.
- Subsequently, in the next section, we will discuss bad neighborhoods on
- phishing.
+ Subsequently, in the next section, we will discuss the general phishing
+ countermeasures.
 \end_layout
 
 \begin_layout Standard
@@ -5227,7 +5225,7 @@ Using influence and persuasion to deceive people by convincing them that
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 
 \lang american
 From his definition we can learn that people are the main target of the
@@ -6374,14 +6372,7 @@ We have formulated two research questions and some hypotheses based on our
  impressions from literature.
  We have also outlined a methodology to perform the data analysis that hopefully
  can answer the research questions from its findings.
- THIS IS TEST SEPARATING BIBLIOGRAPHY 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "moore2009economics"
-
-\end_inset
-
-.
+ 
 \end_layout
 
 \begin_layout Part*
@@ -6401,7 +6392,7 @@ options "IEEEtran"
 \end_layout
 
 \begin_layout Section*
-Aditional
+Aditional references
 \end_layout
 
 \begin_layout Standard
