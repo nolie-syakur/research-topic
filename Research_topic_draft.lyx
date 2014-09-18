@@ -2464,8 +2464,8 @@ key "parmar:2014"
 \end_inset
 
 .
- However, as our research mainly focuses in synthesizing phishing email
- with cialdini's six principles of persuasion 
+ However, as our research mainly focuses in integrating phishing email with
+ cialdini's six principles of persuasion 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "cialdini:2001"
@@ -4280,7 +4280,7 @@ key "ma:2009,ma2:2009,liu,xiang:2011"
 
 \lang american
 Each of these features does matter for phishing detection.
- However, as our main objective is synthesizing cialdini's principle with
+ However, as our main objective is integrating cialdini's principle with
  phishing emails, we will not describe each of these features in detail.
  It is noteworthy that some of the features are subset of another feature,
  for instance, autonomous system number (ASN), IP country and number of
@@ -5326,9 +5326,8 @@ key "stajano2011understanding"
 \end_inset
 
 .
- We will use these principles as our foundation in synthesizing phishing
- email corpus with human factor.
- 
+ We will use these principles as our foundation to be integrated in phishing
+ email corpus.
 \end_layout
 
 \begin_layout Standard
@@ -5490,8 +5489,7 @@ height "1pt"
 \begin_layout Standard
 
 \shape italic
-RQ2: How relevant are the persuasive principles to the generic phishing
- email properties?
+RQ2: To what extent are persuasive principles used in phishing emails
 \end_layout
 
 \begin_layout Standard
@@ -5511,8 +5509,8 @@ We established 16 hypotheses to indicate the relationship between generic
  properties and relevancy of persuasive principle to these properties.
  H8, H9, H10, H13, H14, H15 will partly answer RQ1 in respect to the relationshi
 p between generic properties and the rest will answer RQ2.
- We synthesize cialdini's principles with our dataset.
- In order to conduct synthesization, we established our decision making
+ We integrate cialdini's principles with our dataset.
+ In order to conduct the integration, we established our decision making
  to classify which persuasive elements that are exist in a phishing email.
  
 \end_layout
