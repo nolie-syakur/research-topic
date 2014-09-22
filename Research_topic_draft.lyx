@@ -2464,8 +2464,8 @@ key "parmar:2014"
 \end_inset
 
 .
- However, as our research mainly focuses in integrating phishing email with
- cialdini's six principles of persuasion 
+ However, as our research mainly focuses in an analysis of phishing emails
+ based on Cialdini's six principles of persuasion 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "cialdini:2001"
@@ -4280,8 +4280,9 @@ key "ma:2009,ma2:2009,liu,xiang:2011"
 
 \lang american
 Each of these features does matter for phishing detection.
- However, as our main objective is integrating cialdini's principle with
- phishing emails, we will not describe each of these features in detail.
+ However, as our main objective is an analysis of phishing emails based
+ on Cialdini's persuasion pinciples, we will not describe each of these
+ features in detail.
  It is noteworthy that some of the features are subset of another feature,
  for instance, autonomous system number (ASN), IP country and number of
  registration information are derived from WHOIS information.
@@ -5326,7 +5327,7 @@ key "stajano2011understanding"
 \end_inset
 
 .
- We will use these principles as our foundation to be integrated in phishing
+ We will use these principles as our foundation to be analyzed in phishing
  email corpus.
 \end_layout
 
@@ -5509,14 +5510,14 @@ We established 16 hypotheses to indicate the relationship between generic
  properties and relevancy of persuasion principle to these properties.
  H8, H9, H10, H13, H14, H15 will partly answer RQ1 in respect to the relationshi
 p between generic properties and the rest will answer RQ2.
- We integrate cialdini's principles with our dataset.
- In order to conduct the integration, we established our decision making
- to classify which persuasive elements that are exist in a phishing email.
+ We conduct an analysis of phishing emails based on Cialdini's principles.
+ In order to conduct the analysis, we established our decision making to
+ classify which persuasive elements that are exist in a phishing email.
  
 \end_layout
 
 \begin_layout Standard
-In our coding of cialdini's principles and phishing email dataset, we identified
+In our coding of Cialdini's principles and phishing email dataset, we identified
  phishing emails with fake logos and signatures that may mistakenly regard
  them as legitimate by average internet users.
  For example in the context of phishing email, signature such as 
